@@ -14,6 +14,7 @@
 		6263589D1BA7150800FCF29E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6263589C1BA7150800FCF29E /* Images.xcassets */; };
 		626358A01BA7150800FCF29E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6263589E1BA7150800FCF29E /* LaunchScreen.xib */; };
 		626358AC1BA7150800FCF29E /* XBTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 626358AB1BA7150800FCF29E /* XBTextViewTests.m */; };
+		626358B71BA7153700FCF29E /* XBPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626358B61BA7153700FCF29E /* XBPlaceholderTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		626358A51BA7150800FCF29E /* XBTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		626358AA1BA7150800FCF29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		626358AB1BA7150800FCF29E /* XBTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBTextViewTests.m; sourceTree = "<group>"; };
+		626358B51BA7153700FCF29E /* XBPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBPlaceholderTextView.h; sourceTree = "<group>"; };
+		626358B61BA7153700FCF29E /* XBPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBPlaceholderTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		6263588E1BA7150800FCF29E /* XBTextView */ = {
 			isa = PBXGroup;
 			children = (
+				626358B51BA7153700FCF29E /* XBPlaceholderTextView.h */,
+				626358B61BA7153700FCF29E /* XBPlaceholderTextView.m */,
 				626358931BA7150800FCF29E /* AppDelegate.h */,
 				626358941BA7150800FCF29E /* AppDelegate.m */,
 				626358961BA7150800FCF29E /* ViewController.h */,
@@ -222,6 +227,7 @@
 				626358981BA7150800FCF29E /* ViewController.m in Sources */,
 				626358951BA7150800FCF29E /* AppDelegate.m in Sources */,
 				626358921BA7150800FCF29E /* main.m in Sources */,
+				626358B71BA7153700FCF29E /* XBPlaceholderTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

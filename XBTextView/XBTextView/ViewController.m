@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "XBPlaceholderTextView.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    XBPlaceholderTextView *textView = [[XBPlaceholderTextView alloc] initWithFrame:CGRectMake(0, 200, 200, 200)];
+    textView.center = self.view.center;
+    textView.backgroundColor = [UIColor grayColor];
+    // 设置光标颜色
+    textView.tintColor = [UIColor yellowColor];
+    // 设置占位文字
+    textView.placeholder = @"xiaobing";
+    // 设置站位文字颜色
+    textView.placeholderColor = [UIColor redColor];
+    [self.view addSubview:textView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
